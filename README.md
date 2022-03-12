@@ -2,7 +2,7 @@
 ## Overview
 Improbable Beef, a synthetic beef producer is in search of micro organisms that can create the perfect taste of beef. Roza is a biological reasercher in their microbiology lab. She has a hypothesis that the answer lies in our belly button, i.e., bacteria found in human belly button can emulate that coveted flavour.
 
-For this purpose, Roza has collected samples from a large number of people across US and analyzed the bacteria population in their belly buttons. She needs to create a webpage with visualization of the findings that both the researchers and the volunteers can use. The users need to be able to filter the charts by volunteers' IDs to look at diversity and population of bacteria in an individual participant's belly button.
+For this purpose, Roza has collected samples from a large number of people across US and analyzed the bacteria population in their belly buttons. She needs to create a webpage with visualization of the findings that both the researchers and the volunteers can use. The users need to be able to filter the charts by subjects' IDs to look at diversity and population of bacteria in a subject's belly button.
 
 ### Resources
 
@@ -28,7 +28,7 @@ The belly button biodiversity dashboard can be found at https://nusratnimme.gith
 
 1. The function **selector** takes as input the selected ID which is then used to filter the other contents.
 
-2. The function **optionChanged()** uses the selected ID to update the data and charts accordingly.
+2. The function **optionChanged** uses the selected ID to update the data and charts accordingly.
 
 3. The **buildMetadata** function filters demographic information for the selected ID to display in the panel.
 
