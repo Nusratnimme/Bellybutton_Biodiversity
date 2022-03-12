@@ -20,7 +20,7 @@ The main objective of this project is to create a dashboard using Javascript, Pl
 
 ## Results
 
-The belly button biodiversity dashboard can be found at **
+The belly button biodiversity dashboard can be found at https://nusratnimme.github.io/Bellybutton_Biodiversity/ .
 
 - To create the initial dashboard, an HTML page was created  containing a jumbotron for the title, a drop down list for test subject IDs, a panel for subject's demographic information, and three panels for charts to display the data. Bootstrap was used as a stylesheet and d3, plotly and samples.json were included as script tags to read the data.
 
