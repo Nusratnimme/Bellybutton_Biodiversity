@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bellybutton Biodiversity</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body style="background-color: whitesmoke;">
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 jumbotron text-center" style="background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP._L6EwtiMCE88nF0MBn3n9QHaEL%26pid%3DApi&f=1);">
+        <h1 style="color:white;">Belly Button Biodiversity Dashboard</h1>
+        <p style="color:white;">Use the interactive charts below to explore the dataset</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-4 col-md-2">
+        <div class="well" style="background-color: #4781b4; color: white; border-color: #4781b4">
+          <h4>Test Subject<br>ID No.:</h4>
+          <!-- <select id="selDataset"></select> -->
+          <select id="selDataset" style="color: black" onchange="optionChanged(this.value)"></select>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Demographic Info</h3>
+          </div>
+          <div id="sample-metadata" class="panel-body"></div>
+        </div>
+      </div>
+      <div class="col-xs-8 col-md-5">
+        <div id="bar"></div>
+        <p><b>This bar graph shows the Top 10 Bacteria cultures found in each volunteer.</b></p>
+      </div>
+      <div class="col-xs-12 col-md-5">
+        <div id="gauge"></div>
+        <p><b>This gauge chart shows the frequency of washing belly button per week.</b></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12 col-md-12 col-lg-12">
+        <div id="bubble"></div>
+        <p class=text-center><b>This bubble chart shows number of bacteria that exists within the selected volunteer's belly button.</b></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="samples.json"></script>
+  <script src="charts.js"></script>
+
+</body>
+
+</html>
