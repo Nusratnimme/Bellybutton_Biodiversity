@@ -43,4 +43,6 @@ The bubble charts shows the population of different bacteria found in the subjec
 ### Gauge Chart
 The Guage chart shows how often does the subject wash their belly buttons in a week.
 
-![Bellybutton_Biodiversity_Dashboard]()
+#### The customized dashboard is showing below.
+
+![Bellybutton_Biodiversity_Dashboard](https://github.com/Nusratnimme/Bellybutton_Biodiversity/blob/main/Image/webpage.png)
